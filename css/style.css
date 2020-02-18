@@ -1,0 +1,95 @@
+body {
+    margin-top:3%;
+    margin-left:5%;
+    background-image:url(../images/background.jpg);
+}
+.titular {
+    background: #f3f3f3;
+    font-size: 20px;
+    color: #000;
+    margin: 10px auto;
+    text-align: center;
+    width: 40%;
+    padding:3px 10px 3px 10px;
+    border-radius: 12px;
+    border: solid 1px #999999;
+}
+.formulario {
+    background: #f3f3f3;
+    font-size: 14px;
+    color: #000;
+    margin: 10px auto;
+    text-align: left;
+    width: 40%;
+    height:330px;
+    padding:3px 10px 200px 10px;
+    border-radius: 12px;
+    border: solid 1px #999999;
+}
+.piePagina {
+    background: #f3f3f3;
+    font-size: 20px;
+    color: #000;
+    margin: 10px auto;
+    text-align: center;
+    width: 40%;
+    height:20%;
+    padding:3px 10px 3px 10px;
+    border-radius: 12px;
+    border: solid 1px #999999;
+}
+button {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    background-color: #BDC3C7;
+    border: none;
+    border-radius: 9px;
+    color: white;
+    padding: 7px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    margin: 4px 2px;
+    cursor: pointer;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+}
+input {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    background-color: #BDC3C7;
+    border: none;
+    border-radius: 9px;
+    color: white;
+    padding: 7px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    margin: 4px 2px;
+    cursor: pointer;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+}
+h2 {
+    font-weight:bold;
+    font-size: larger; 
+    text-align: center;
+}
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+tr:hover{background-color:#f5f5f5}
+
+
+/* Colores que tendra por default el campo identificacion*/
+#estadoColor {
+  background-color: #FAA; 
+}
